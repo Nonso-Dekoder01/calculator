@@ -10,12 +10,23 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background: #e3e3e3;
+    background: #fff;
     display: flex;
     flex-direction: column;
     gap: 3rem;
     align-items: center;
     justify-content: center;
+}
+
+.back {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    color: #3a4452;
+    cursor: pointer; 
 }
 
 .calculator {
